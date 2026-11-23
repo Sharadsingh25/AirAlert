@@ -1,0 +1,11 @@
+,aqi
+aqi,1.0
+pm10,0.96
+no2,0.8
+so2,0.599
+co,0.843
+o3,-0.718
+temp,-0.599
+humidity,-0.43
+wind_speed,-0.489
+resp_cases,0.71

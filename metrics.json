@@ -1,0 +1,50 @@
+{
+  "forecast": {
+    "1-day ahead": {
+      "Persistence (baseline)": {
+        "MAE": 55.47,
+        "RMSE": 85.69,
+        "R2": 0.489
+      },
+      "Random Forest": {
+        "MAE": 48.31,
+        "RMSE": 67.69,
+        "R2": 0.681
+      }
+    },
+    "3-day ahead": {
+      "Persistence (baseline)": {
+        "MAE": 64.67,
+        "RMSE": 96.09,
+        "R2": 0.355
+      },
+      "Random Forest": {
+        "MAE": 55.6,
+        "RMSE": 74.28,
+        "R2": 0.614
+      }
+    },
+    "7-day ahead": {
+      "Persistence (baseline)": {
+        "MAE": 70.74,
+        "RMSE": 102.43,
+        "R2": 0.278
+      },
+      "Random Forest": {
+        "MAE": 58.82,
+        "RMSE": 78.18,
+        "R2": 0.579
+      }
+    }
+  },
+  "classification": {
+    "health_risk": {
+      "F1_macro": 0.834,
+      "High_risk_recall": 0.879
+    },
+    "aqi_category": {
+      "F1_macro": 0.349,
+      "VeryPoor_or_Severe_recall": 0.176
+    }
+  }
+}
